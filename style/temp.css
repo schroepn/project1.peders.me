@@ -1,3 +1,7 @@
+* {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 body {
     margin: 0;
 }
@@ -15,7 +19,6 @@ header{
     margin-top: 0;
     padding-top: 5px;
     background-color: lightgray;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 div.headerbar {
