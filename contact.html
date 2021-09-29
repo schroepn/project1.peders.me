@@ -4,20 +4,35 @@
         <title>Contact Us</title>
         <link rel="icon" href="images/jmu-anime-logo.jpg">
         <link rel="stylesheet" href="css/default.css">
+        <link rel="stylesheet" href="css/contact.css">
+        <script type="text/javascript" src="js/default.js"></script>
         <meta charset="utf-8">
     </head>
     <body>
         <header>
             <h1><a id="title" href="index.html">JMU ANIME CLUB</a></h1>
             <div class="headerbar">
-                <a href="index.html">Home</a>
-                <a href="calendar.html">Calendar</a>
-                <a href="about.html">About Us</a>
-                <a href="contact.html">Contact Us</a>
+                <a href="index.html"><img class="icon" src="images/icons8-home.svg"><span class="disappear">Home</span></a>
+                <a href="activities.html"><img class="icon" src="images/party.svg"><span class="disappear">Club Activites</span></a>
+                <a href="calendar.html"><img class="icon" src="images/calendar.svg"><span class="disappear">Calendar</span></a>
+                <a href="about.html"><img class="icon" src="images/info.svg"><span class="disappear">About Us</span></a>
+                <a href="contact.html"><img class="icon" src="images/phone-call.svg"><span class="disappear">Contact Us</span></a>
             </div>
         </header>
-        <main>
 
+        
+        <main id="parent">
+            <span id="column">
+                <h1>Welcome To The JMU Anime Club</h1>
+                <p>
+                    this is where you can contact the JMU Anime Club, either because you want to join the club or because you have other inquiries.
+                </p>
+                <span id="contact">
+                    <p>Email&hellip;<input id="email" type="email"></p>
+                    <p><textarea id='output' rows="10" cols="50" placeholder="Tell us something"></textarea></p>
+                    <input type="submit" value="Send" onclick="clearContent()">
+                </span>
+            </span>
         </main>
     </body>
     
