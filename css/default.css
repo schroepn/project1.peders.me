@@ -2,14 +2,39 @@
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.icon {
+    max-width: 20px;
+    max-height: 20px;
+}
+
 body {
     margin: 0;
+    background-color: slategray;
+    color:snow;
 }
 
 header{
     background-color: lightgray;
     text-align: center;
     margin-top: 0;
+}
+
+#parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: teal;
+    min-height: 100vh;
+    max-width: 900px;
+    min-width: 500px;
 }
 
 
@@ -42,4 +67,19 @@ header div.headerbar a:hover {
     padding: 3px;
     padding-top: 0;
     color: lightgray;
+}
+
+a {
+    color: tomato;
+    text-decoration: none;
+}
+
+p {
+    max-width: 90%;
+}
+
+@media (max-width:1200px) {
+    .disappear {
+        display: none;
+    }
 }

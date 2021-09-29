@@ -1,0 +1,12 @@
+#contact {
+    background-color: darkgrey;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    height: 300px;
+}
+
+textarea {
+    box-shadow: 3px 3px 3px rgb(133, 133, 133);
+    resize: none;
+}
