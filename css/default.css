@@ -2,6 +2,12 @@
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+@keyframes move {
+    from {
+      margin-bottom: -100%;
+    }
+  }
+
 .icon {
     max-width: 20px;
     max-height: 20px;
@@ -35,6 +41,8 @@ header{
     min-height: 100vh;
     max-width: 900px;
     min-width: 500px;
+    animation-duration: 5s;
+    animation-name: move;
 }
 
 
